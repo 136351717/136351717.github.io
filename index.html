@@ -10,7 +10,13 @@
 	<link href="css/ohmygod.css" rel="stylesheet" type="text/css"/>
 
 <script>
-	
+	document.addEventListener('touchstart', function () {
+	    function audioAutoPlay() {
+		var audio = document.getElementById('audio');
+		    audio.play();
+	    }
+	    audioAutoPlay();
+	});
 	
 var _hmt = _hmt || [];
 (function() {
